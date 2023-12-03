@@ -1,6 +1,6 @@
 /* Base styles */
 body {
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -20,7 +20,7 @@ a {
 }
 
 span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 /* Header styles */
@@ -32,8 +32,8 @@ span {
 }
 
 .header-nav-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -48,8 +48,12 @@ span {
 .header-nav-link:hover {
   color: #404bbf;
 }
+.header-nav-link:focus {
+  color: #404bbf;
+}
 
 .header-addres {
+  color: #434455;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -59,23 +63,38 @@ span {
 .header-addres-link:hover {
   color: #404bbf;
 }
+.header-addres-link:focus {
+  color: #404bbf;
+}
 .header-box {
   background-color: #2e2f42;
 }
 .header-box-content {
   color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .header-box-button {
-  font-family: inherit;
   color: #ffffff;
-  display: inline-flex;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 .header-box-button:hover {
+  background-color: #404bbf;
+}
+.header-box-button:focus {
   background-color: #404bbf;
 }
 
