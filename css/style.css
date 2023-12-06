@@ -60,18 +60,19 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .header-addres-link:hover {
   color: #404bbf;
 }
+
 .header-addres-link:focus {
   color: #404bbf;
 }
+
 .header-box {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
 }
+
 .header-box-content {
   color: #ffffff;
   text-align: center;
@@ -79,8 +80,8 @@ span {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  position: relative;
 }
+
 .header-box-button {
   color: #ffffff;
   font-family: Roboto, sans-serif;
@@ -89,11 +90,9 @@ span {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
   background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba0, 0, 0, 0.15;
+  border-style: none;
 }
 .header-box-button:hover {
   background-color: #404bbf;
@@ -164,7 +163,6 @@ span {
 }
 .portfolio-our {
   color: #2e2f42;
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
